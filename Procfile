@@ -1,1 +1,1 @@
-worker: python3 python3 alertProduct.py
+worker: python3 alertProduct.py
