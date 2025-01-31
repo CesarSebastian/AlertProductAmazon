@@ -71,7 +71,7 @@ def check_availability():
             send_notification("❌ No se encontró información de disponibilidad.")
             return False
     except Exception as e:
-        print(f"❌ Error al verificar disponibilidad: {e}")
+        print(f"❌ Error al verifier disponibilidad: {e}")
         send_notification(f"❌ Error al verificar disponibilidad: {e}")
         return False
 
